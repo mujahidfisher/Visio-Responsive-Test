@@ -1,0 +1,30 @@
+@media only screen and (max-width: 1000px){
+    .logo {
+        width: 35%;
+      }
+    
+}
+
+@media only screen and (max-width: 800px){
+    .logo {
+        width: 40%;
+      }
+
+      .navbar {
+        padding-left: 6rem;
+        padding-right: 6rem;
+      }
+    
+}
+
+@media only screen and (max-width: 450px){
+    .logo {
+        width: 50%;
+      }
+
+      .navbar {
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
+    
+}
