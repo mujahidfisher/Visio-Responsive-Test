@@ -14,6 +14,12 @@
         padding-left: 6rem;
         padding-right: 6rem;
       }
+
+      .banner {
+        width: 20rem;
+        height: 3.8rem;
+        font-size: 60%;
+    }
     
 }
 
@@ -26,5 +32,12 @@
         padding-left: 2rem;
         padding-right: 2rem;
       }
+
+      .banner {
+        width: 14rem;
+        height: 2.7rem;
+        font-size: 54%;
+        padding-left: 18px;
+    }
     
 }
