@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
+/* DEFAULT CSS */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
+
+/* NAVBAR SECTION */
 
 .navbar {
   display: flex;
@@ -25,6 +28,8 @@
   height: 25px;
   width: 30px;
 }
+
+/* HERO SECTION */
 
 .slider-outer {
   display: flex;
@@ -109,6 +114,8 @@
   font-weight: bolder;
 }
 
+/* MID SECTION */
+
 .mid-section {
   display: flex;
   justify-content: space-between;
@@ -127,4 +134,70 @@
   color: #061c2c;
   font-weight: 500;
   line-height: 1.5;
+}
+
+/* END SECTION */
+
+.card-section {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.card-container1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.card-container2 {
+  display: flex;
+  justify-content: center;
+}
+
+.box-card1,
+.card-box2,
+.card-box3 {
+  background-color: #061c2c;
+  width: 25rem;
+  height: auto;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+}
+
+.t1 {
+  color: #1e7bae;
+  font-size: 4rem;
+}
+
+.t2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.btn-card1,
+.btn-card2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #244ac2;
+  color: white;
+  width: 12rem;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.arrow-btn {
+  font-weight: 1000;
+  color: #2794df;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
 }

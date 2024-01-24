@@ -27,7 +27,7 @@
     padding-left: 6rem;
     padding-right: 6rem;
   }
-  
+
   .icons {
     width: 15rem;
   }
@@ -76,8 +76,6 @@
     gap: 3rem;
     margin-top: -3rem;
   }
-
-  
 }
 
 @media only screen and (max-width: 750px) {
@@ -86,7 +84,7 @@
     padding-right: 4rem;
     gap: 2rem;
   }
-  
+
   .icons {
     width: 10rem;
   }
@@ -182,6 +180,10 @@
   .icons {
     width: 15rem;
   }
+
+  .card-section {
+    margin-top: -40px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -227,6 +229,29 @@
 
   .mid-section {
     margin-top: -30px;
+  }
+
+  .btn-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn-card1,
+  .btn-card2 {
+    width: 20rem;
+    padding: 9px;
+    padding-left: 7px;
+    padding-right: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .box-card1,
+  .card-box2,
+  .card-box3 {
+    width: 20rem;
+    padding-left: 20px;
+    padding-bottom: 20px;
   }
 }
 
@@ -294,6 +319,24 @@
   .navbar {
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+
+  .btn-card1,
+  .btn-card2 {
+    width: 18rem;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+
+  .box-card1,
+  .card-box2,
+  .card-box3 {
+    width: 18rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
   }
 }
 
