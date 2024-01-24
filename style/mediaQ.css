@@ -1,43 +1,255 @@
-@media only screen and (max-width: 1000px){
-    .logo {
-        width: 35%;
-      }
-    
+@media only screen and (max-width: 1200px) {
+  .indicaters {
+    margin-left: 82%;
+    margin-top: 32%;
+  }
 }
 
-@media only screen and (max-width: 800px){
-    .logo {
-        width: 40%;
-      }
+@media only screen and (max-width: 1000px) {
+  .logo {
+    width: 20%;
+  }
 
-      .navbar {
-        padding-left: 6rem;
-        padding-right: 6rem;
-      }
+  .next {
+    margin-left: 83%;
+  }
 
-      .banner {
-        width: 20rem;
-        height: 3.8rem;
-        font-size: 60%;
-    }
-    
+  .indicaters {
+    margin-left: 79%;
+    margin-top: 29%;
+  }
 }
 
-@media only screen and (max-width: 450px){
-    .logo {
-        width: 50%;
-      }
+@media only screen and (max-width: 900px) {
+  .indicaters {
+    margin-left: 77%;
+    margin-top: 27%;
+  }
+}
 
-      .navbar {
-        padding-left: 2rem;
-        padding-right: 2rem;
-      }
+@media only screen and (max-width: 800px) {
+  .logo {
+    width: 20%;
+  }
 
-      .banner {
-        width: 14rem;
-        height: 2.7rem;
-        font-size: 54%;
-        padding-left: 18px;
-    }
-    
+  .navbar {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .banner {
+    width: 20rem;
+    font-size: 60%;
+  }
+
+  .square {
+    font-size: 60%;
+  }
+
+  .indicator {
+    width: 20px;
+  }
+
+  .indicaters {
+    margin-left: 77%;
+    margin-top: 25%;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  .indicaters {
+    margin-left: 75%;
+    margin-top: 23%;
+  }
+
+  .next {
+    margin-left: 80%;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .indicaters {
+    margin-left: 72%;
+    margin-top: 20%;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  .indicaters {
+    margin-left: 74%;
+    margin-top: 20%;
+  }
+
+  .indicator {
+    width: 18px;
+  }
+
+  .slider-img {
+    padding: 4rem;
+    margin-top: -4rem;
+  }
+
+  .logo {
+    width: 30%;
+  }
+
+  .banner {
+    width: 14rem;
+    height: 2.7rem;
+    font-size: 54%;
+    padding-left: 18px;
+  }
+
+  .square {
+    height: 2.7rem;
+    font-size: 54%;
+    padding-left: 18px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .next {
+    margin-left: 78%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .indicaters {
+    margin-left: 70%;
+    margin-top: 14%;
+  }
+
+  .indicator {
+    width: 15px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+  .next {
+    margin-left: 76%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .logo {
+    width: 40%;
+  }
+
+  .indicaters {
+    margin-left: 69%;
+    margin-top: 17%;
+  }
+
+  .next {
+    margin-top: -50px;
+    margin-left: 77%;
+  }
+
+  .slider-img {
+    padding: 3rem;
+    margin-top: -3rem;
+  }
+
+  .banner {
+    margin-top: -50px;
+    width: 12rem;
+    height: 2.5rem;
+    font-size: 52%;
+    padding-left: 15px;
+  }
+
+  .square {
+    margin-top: -50px;
+    height: 2.5rem;
+    font-size: 52%;
+    padding-left: 15px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .indicaters {
+    margin-left: 70%;
+    margin-top: 12%;
+  }
+
+  .navbar {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .banner {
+    width: 10rem;
+    height: 2.2rem;
+    font-size: 50%;
+    padding-left: 13px;
+  }
+
+  .square {
+    height: 2.2rem;
+    font-size: 50%;
+    padding-left: 13px;
+  }
+
+  .indicator {
+    width: 10px;
+  }
+
+  .next {
+    margin-left: 76%;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .indicaters {
+    margin-left: 73%;
+    margin-top: 12%;
+  }
+
+  .banner {
+    width: 8rem;
+    height: 1.7rem;
+    font-size: 40%;
+    padding-left: 10px;
+  }
+
+  .square {
+    height: 1.7rem;
+    font-size: 40%;
+    padding-left: 10px;
+  }
+
+  .next {
+    margin-left: 78%;
+  }
+
+  .navbar {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .indicaters {
+    margin-left: 75%;
+    margin-top: 18%;
+  }
+
+  .slider-img {
+    padding: 2rem;
+    margin-top: -2rem;
+  }
+
+  .banner {
+    margin-top: -45px;
+  }
+
+  .square {
+    margin-top: -45px;
+  }
+
+  .next {
+    margin-left: 80%;
+    margin-top: -45px;
+  }
 }

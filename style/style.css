@@ -15,7 +15,6 @@
   padding: 10px;
   padding-left: 10rem;
   padding-right: 10rem;
-
 }
 
 .logo {
@@ -27,18 +26,85 @@
   width: 30px;
 }
 
+.slider-outer {
+  display: flex;
+  align-items: center;
+}
+
 .banner {
-    color: white;
-    background-color: #244ac2;
-    width: 25rem;
-    height: 3.8rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 70%;
-    word-spacing: 4%;
-    letter-spacing: 0.8px;
-    padding-left: 50px;
-    position: absolute;
-    z-index: 2;
+  color: white;
+  background-color: #244ac2;
+  width: 25rem;
+  height: 3.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 70%;
+  word-spacing: 4%;
+  letter-spacing: 0.8px;
+  padding-left: 50px;
+  position: absolute;
+  z-index: 2;
+  margin-top: -80px;
+  font-weight: bolder;
+}
+
+.slider-img {
+  width: 100%;
+  padding: 5rem;
+  margin-top: -5rem;
+  z-index: -1;
+}
+
+.slider-inner {
+  overflow: hidden;
+}
+
+.slider-inner img {
+  display: none;
+}
+
+.slider-inner img.active {
+  display: inline-block;
+}
+
+.next {
+  z-index: 3;
+  cursor: pointer;
+  position: absolute;
+  width: 6%;
+  margin-top: -80px;
+  margin-left: 85%;
+}
+
+.indicaters {
+  position: absolute;
+  z-index: 4;
+  margin-left: 85%;
+  margin-top: 35%;
+}
+
+.indicator {
+  width: 25px;
+  margin-right: -5px;
+}
+
+.active1 {
+  opacity: 50%;
+  transform: rotate(120deg);
+}
+
+.square {
+  position: absolute;
+  width: 100%;
+  margin-top: -80px;
+  z-index: -2;
+  background-color: #000000;
+  color: black;
+  height: 3.8rem;
+  font-size: 70%;
+  word-spacing: 4%;
+  letter-spacing: 0.8px;
+  padding-left: 50px;
+  font-weight: bolder;
 }
