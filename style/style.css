@@ -74,7 +74,7 @@
   position: absolute;
   width: 6%;
   margin-top: -80px;
-  margin-left: 85%;
+  margin-left: 86%;
 }
 
 .indicaters {
@@ -107,4 +107,24 @@
   letter-spacing: 0.8px;
   padding-left: 50px;
   font-weight: bolder;
+}
+
+.mid-section {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  gap: 5rem;
+  margin-top: -1rem;
+  margin-bottom: 5rem;
+}
+
+.icons {
+  width: 20rem;
+}
+
+.text-visio {
+  color: #061c2c;
+  font-weight: 500;
+  line-height: 1.5;
 }

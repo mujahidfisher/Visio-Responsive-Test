@@ -3,6 +3,10 @@
     margin-left: 82%;
     margin-top: 32%;
   }
+
+  .none {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -18,12 +22,25 @@
     margin-left: 79%;
     margin-top: 29%;
   }
+
+  .mid-section {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  
+  .icons {
+    width: 15rem;
+  }
 }
 
 @media only screen and (max-width: 900px) {
   .indicaters {
     margin-left: 77%;
     margin-top: 27%;
+  }
+
+  .mid-section {
+    margin-top: -3rem;
   }
 }
 
@@ -53,6 +70,25 @@
   .indicaters {
     margin-left: 77%;
     margin-top: 25%;
+  }
+
+  .mid-section {
+    gap: 3rem;
+    margin-top: -3rem;
+  }
+
+  
+}
+
+@media only screen and (max-width: 750px) {
+  .mid-section {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    gap: 2rem;
+  }
+  
+  .icons {
+    width: 10rem;
   }
 }
 
@@ -105,6 +141,12 @@
     font-size: 54%;
     padding-left: 18px;
   }
+
+  .mid-section {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    gap: 1rem;
+  }
 }
 
 @media only screen and (max-width: 530px) {
@@ -122,10 +164,27 @@
   .indicator {
     width: 15px;
   }
+
+  .mid-section {
+    align-items: center;
+    flex-direction: column;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    gap: 0rem;
+    margin-top: -45px;
+  }
+
+  .text-area {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .icons {
+    width: 15rem;
+  }
 }
 
 @media only screen and (max-width: 480px) {
-
   .next {
     margin-left: 76%;
   }
@@ -165,6 +224,10 @@
     font-size: 52%;
     padding-left: 15px;
   }
+
+  .mid-section {
+    margin-top: -30px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -197,6 +260,11 @@
 
   .next {
     margin-left: 76%;
+  }
+
+  .mid-section {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 
@@ -251,5 +319,11 @@
   .next {
     margin-left: 80%;
     margin-top: -45px;
+  }
+
+  .mid-section {
+    margin-top: -10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
