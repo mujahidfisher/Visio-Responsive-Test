@@ -197,6 +197,17 @@
     margin-left: 78%;
     transition: 0.3s ease;
   }
+
+  .box-card1,
+  .card-box2,
+  .card-box3 {
+    width: 25rem;
+  }
+  
+  .btn-card1,
+  .btn-card2 {
+    width: 12rem;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -253,6 +264,18 @@
     margin-top: -40px;
     transition: 0.3s ease;
   }
+
+  .box-card1,
+.card-box2,
+.card-box3 {
+  width: 25rem;
+}
+
+.btn-card1,
+.btn-card2 {
+  width: 12rem;
+}
+
 }
 
 @media only screen and (max-width: 480px) {
