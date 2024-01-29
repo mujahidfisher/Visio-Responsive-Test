@@ -51,14 +51,9 @@
     transition: 0.3s ease;
   }
 
-  .mid-section {
-    padding-left: 6rem;
-    padding-right: 6rem;
-    transition: 0.3s ease;
-  }
-
   .icons {
     width: 15rem;
+
     transition: 0.3s ease;
   }
 }
@@ -119,8 +114,6 @@
   }
 
   .mid-section {
-    padding-left: 4rem;
-    padding-right: 4rem;
     gap: 2rem;
     transition: 0.3s ease;
   }
@@ -203,9 +196,9 @@
   }
 
   .mid-section {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    gap: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    gap: 20px;
     transition: 0.3s ease;
   }
 }
@@ -447,6 +440,17 @@
     transition: 0.3s ease;
   }
 
+  .slider-img {
+    padding: 2rem;
+    transition: 0.3s ease;
+  }
+
+  .mid-section {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    transition: 0.3s ease;
+  }
+
   .btn-card1,
   .btn-card2 {
     width: 18rem;
@@ -481,30 +485,30 @@
   }
 
   .indicaters {
-    margin-left: 75%;
-    margin-top: 18%;
+    margin-left: 80%;
+    margin-top: 25%;
     transition: 0.3s ease;
   }
 
   .slider-img {
-    padding: 2rem;
+    padding: 10px;
     margin-top: -2rem;
     transition: 0.3s ease;
   }
 
   .banner {
-    margin-top: -45px;
+    margin-top: -10px;
     transition: 0.3s ease;
   }
 
   .square {
-    margin-top: -45px;
+    margin-top: -10px;
     transition: 0.3s ease;
   }
 
   .next {
-    margin-left: 80%;
-    margin-top: -45px;
+    margin-left: 90%;
+    margin-top: -10px;
     transition: 0.3s ease;
   }
 
