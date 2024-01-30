@@ -5,24 +5,6 @@
     transition: 0.3s ease;
   }
 
-  .box-card1,
-.card-box2,
-.card-box3 {
-  width: 26rem;
-  transition: 0.3s ease;
-}
-
-.btn-card1,
-.btn-card2 {
-  width: 12rem;
-  transition: 0.3s ease;
-}
-
-  .card-container1 {
-    gap: 3rem;
-    transition: 0.3s ease;
-  }
-
   .none {
     display: none;
   }
@@ -45,16 +27,21 @@
     transition: 0.3s ease;
   }
 
+  .mid-section {
+    flex-direction: column;
+    gap: 2rem;
+    transition: 0.3s ease;
+  }
+
   .indicaters {
     margin-left: 79%;
     margin-top: 29%;
     transition: 0.3s ease;
   }
 
-  .icons {
-    width: 15rem;
-
-    transition: 0.3s ease;
+  .img-icons {
+    display: flex;
+    flex-direction: row-reverse;
   }
 }
 
@@ -115,11 +102,6 @@
 
   .mid-section {
     gap: 2rem;
-    transition: 0.3s ease;
-  }
-
-  .icons {
-    width: 10rem;
     transition: 0.3s ease;
   }
 }
@@ -208,17 +190,6 @@
     margin-left: 78%;
     transition: 0.3s ease;
   }
-
-  .box-card1,
-  .card-box2,
-  .card-box3 {
-    width: 25rem;
-  }
-
-  .btn-card1,
-  .btn-card2 {
-    width: 12rem;
-  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -252,6 +223,7 @@
 
   .mid-section {
     align-items: center;
+    flex-wrap: wrap;
     flex-direction: column;
     padding-left: 4rem;
     padding-right: 4rem;
@@ -260,38 +232,16 @@
     transition: 0.3s ease;
   }
 
-  .text-area {
-    text-align: center;
-    margin-bottom: 20px;
-    transition: 0.3s ease;
-  }
-
-  .icons {
-    width: 15rem;
-    transition: 0.3s ease;
-  }
-
-  .card-section {
-    margin-top: -40px;
-    transition: 0.3s ease;
-  }
-
-  .box-card1,
-  .card-box2,
-  .card-box3 {
-    width: 25rem;
-  }
-
-  .btn-card1,
-  .btn-card2 {
-    width: 12rem;
-  }
 }
 
 @media only screen and (max-width: 480px) {
   .next {
     margin-left: 76%;
     transition: 0.3s ease;
+  }
+
+  .icons {
+    width: 18rem;
   }
 }
 
@@ -336,31 +286,6 @@
     transition: 0.3s ease;
   }
 
-  .btn-container {
-    flex-direction: column;
-    align-items: center;
-    transition: 0.3s ease;
-  }
-
-  .btn-card1,
-  .btn-card2 {
-    width: 20rem;
-    padding: 9px;
-    padding-left: 7px;
-    padding-right: 10px;
-    font-size: 14px;
-    margin-bottom: 10px;
-    transition: 0.3s ease;
-  }
-
-  .box-card1,
-  .card-box2,
-  .card-box3 {
-    width: 20rem;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    transition: 0.3s ease;
-  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -451,25 +376,6 @@
     transition: 0.3s ease;
   }
 
-  .btn-card1,
-  .btn-card2 {
-    width: 18rem;
-    padding: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    font-size: 13px;
-    margin-bottom: 5px;
-    transition: 0.3s ease;
-  }
-
-  .box-card1,
-  .card-box2,
-  .card-box3 {
-    width: 18rem;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    transition: 0.3s ease;
-  }
 }
 
 @media only screen and (max-width: 330px) {
