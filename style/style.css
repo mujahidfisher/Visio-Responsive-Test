@@ -56,7 +56,7 @@
 }
 
 .slider-img {
-  width: 100%;
+  width: 95%;
   padding: 5rem;
   margin-top: -5rem;
   z-index: -1;
@@ -64,6 +64,8 @@
 
 .slider-inner {
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 .slider-inner img {
@@ -80,14 +82,14 @@
   position: absolute;
   width: 6%;
   margin-top: -80px;
-  margin-left: 86%;
+  margin-left: 83%;
 }
 
 .indicaters {
   position: absolute;
   z-index: 4;
-  margin-left: 85%;
-  margin-top: 35%;
+  margin-left: 80%;
+  margin-top: 30%;
 }
 
 .indicator {
@@ -120,8 +122,8 @@
 .mid-section {
   display: flex;
   justify-content: space-between;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
   gap: 5rem;
   margin-top: -1rem;
   margin-bottom: 5rem;
@@ -140,7 +142,7 @@
 /* END SECTION */
 
 .end-section {
-  padding: 0 5rem;
+  padding: 0 7rem;
   margin-bottom: 110px;
   margin-top: -3rem;
 }

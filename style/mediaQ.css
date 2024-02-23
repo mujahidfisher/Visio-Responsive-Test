@@ -12,8 +12,8 @@
 
 @media only screen and (max-width: 1200px) {
   .indicaters {
-    margin-left: 82%;
-    margin-top: 32%;
+    margin-left: 80%;
+    margin-top: 30%;
     transition: 0.3s ease;
   }
 
@@ -44,7 +44,7 @@
   }
 
   .next {
-    margin-left: 83%;
+    margin-left: 80%;
     transition: 0.3s ease;
   }
 
@@ -55,8 +55,8 @@
   }
 
   .indicaters {
-    margin-left: 79%;
-    margin-top: 29%;
+    margin-left: 78%;
+    margin-top: 27%;
     transition: 0.3s ease;
   }
 
@@ -77,13 +77,13 @@
 
 @media only screen and (max-width: 900px) {
   .indicaters {
-    margin-left: 77%;
-    margin-top: 27%;
+    margin-left: 75%;
+    margin-top: 25%;
     transition: 0.3s ease;
   }
 
   .mid-section {
-    margin-top: -3rem;
+    margin-top: -2rem;
     transition: 0.3s ease;
   }
 }
@@ -106,8 +106,8 @@
   }
 
   .indicaters {
-    margin-left: 77%;
-    margin-top: 25%;
+    margin-left: 75%;
+    margin-top: 23%;
     transition: 0.3s ease;
   }
 
@@ -170,22 +170,26 @@
 
 @media only screen and (max-width: 710px) {
   .indicaters {
-    margin-left: 75%;
-    margin-top: 23%;
+    margin-left: 73%;
+    margin-top: 21%;
     transition: 0.3s ease;
   }
 
   .next {
-    margin-left: 80%;
+    margin-left: 78%;
     transition: 0.3s ease;
   }
 }
 
 @media only screen and (max-width: 660px) {
   .indicaters {
-    margin-left: 72%;
-    margin-top: 20%;
+    margin-left: 70%;
+    margin-top: 18%;
     transition: 0.3s ease;
+  }
+
+  .end-section {
+    padding: 0 5rem;
   }
 }
 
@@ -208,10 +212,12 @@
   }
 
   .indicaters {
-    margin-left: 74%;
+    margin-left: 70%;
     margin-top: 20%;
     transition: 0.3s ease;
   }
+
+
 
   .indicator {
     width: 18px;
@@ -240,8 +246,8 @@
   }
 
   .mid-section {
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     gap: 20px;
     transition: 0.3s ease;
   }
@@ -258,7 +264,7 @@
 
 @media only screen and (max-width: 530px) {
   .next {
-    margin-left: 78%;
+    margin-left: 75%;
     transition: 0.3s ease;
   }
 }
@@ -282,7 +288,7 @@
   }
 
   .indicaters {
-    margin-left: 70%;
+    margin-left: 68%;
     margin-top: 14%;
     transition: 0.3s ease;
   }
@@ -310,7 +316,7 @@
 
 @media only screen and (max-width: 480px) {
   .next {
-    margin-left: 76%;
+    margin-left: 75%;
     transition: 0.3s ease;
   }
 
@@ -321,14 +327,14 @@
 
 @media only screen and (max-width: 450px) {
   .indicaters {
-    margin-left: 69%;
+    margin-left: 67%;
     margin-top: 17%;
     transition: 0.3s ease;
   }
 
   .next {
     margin-top: -50px;
-    margin-left: 77%;
+    margin-left: 75%;
     transition: 0.3s ease;
   }
 
@@ -367,7 +373,7 @@
 
 @media only screen and (max-width: 400px) {
   .indicaters {
-    margin-left: 70%;
+    margin-left: 69%;
     margin-top: 12%;
     transition: 0.3s ease;
   }
@@ -393,13 +399,13 @@
   }
 
   .next {
-    margin-left: 76%;
+    margin-left: 74%;
     transition: 0.3s ease;
   }
 
   .mid-section {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
     transition: 0.3s ease;
   }
 }
