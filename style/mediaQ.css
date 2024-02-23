@@ -1,3 +1,15 @@
+@media only screen and (max-width: 1450px) {
+  .sub-box {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .btn-card1,
+  .btn-card2 {
+    width: 32%;
+  }
+}
+
 @media only screen and (max-width: 1200px) {
   .indicaters {
     margin-left: 82%;
@@ -7,6 +19,15 @@
 
   .none {
     display: none;
+  }
+
+  .t1 {
+    font-size: 4rem;
+  }
+
+  .t2 {
+    font-size: 25px;
+    line-height: 28px;
   }
 }
 
@@ -42,6 +63,15 @@
   .img-icons {
     display: flex;
     flex-direction: row-reverse;
+  }
+
+  .t1 {
+    font-size: 3.5rem;
+  }
+
+  .t2 {
+    font-size: 20px;
+    line-height: 25px;
   }
 }
 
@@ -85,6 +115,38 @@
     gap: 3rem;
     margin-top: -3rem;
     transition: 0.3s ease;
+  }
+
+  .inner-blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .t1 {
+    font-size: 5rem;
+    margin-top: -5px;
+  }
+
+  .t2 {
+    padding: 20px 0 20px 100px;
+    font-size: 25px;
+    line-height: 28px;
+  }
+
+  .sub-box {
+    margin-top: 10rem;
+    gap: 3%;
+  }
+
+  .inner-blocks li {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .btn-card1,
+  .btn-card2 {
+    width: 48%;
   }
 }
 
@@ -183,6 +245,15 @@
     gap: 20px;
     transition: 0.3s ease;
   }
+
+  .btn-card1,
+  .btn-card2 {
+    width: 99.99%;
+  }
+
+  .sub-box {
+    gap: 5%;
+  }
 }
 
 @media only screen and (max-width: 530px) {
@@ -232,6 +303,9 @@
     transition: 0.3s ease;
   }
 
+  .sub-box {
+    margin-top: 13rem;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -286,6 +360,9 @@
     transition: 0.3s ease;
   }
 
+  .end-section {
+    padding: 20px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -375,7 +452,6 @@
     padding-right: 2rem;
     transition: 0.3s ease;
   }
-
 }
 
 @media only screen and (max-width: 330px) {

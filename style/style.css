@@ -138,39 +138,11 @@
 }
 
 /* END SECTION */
-/* .card-container1 {
-  display: flex;
-  width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.box-card1,
-.card-box2,
-.card-box3 {
-  display: block;
-  background-color: #061c2c;
-  width: 100%;
-  position: relative;
-}
-
-.t1 {
-  color: #1e7bae;
-  font-size: 4.5rem;
-  padding-left: 20px;
-}
-
-.t2 {
-  color: white;
-  font-size: 1.5rem;
-  font-weight: 200;
-  padding-left: 20px;
-  padding-bottom: 20px;
-} */
 
 .end-section {
   padding: 0 5rem;
   margin-bottom: 110px;
+  margin-top: -3rem;
 }
 
 .block {
