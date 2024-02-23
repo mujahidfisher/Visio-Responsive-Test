@@ -43,6 +43,16 @@
     transition: 0.3s ease;
   }
 
+  .banner {
+    width: 25rem;
+    height: 4rem;
+    font-size: 80%;
+  }
+
+  .square {
+    height: 4rem;
+  }
+
   .next {
     margin-left: 80%;
     transition: 0.3s ease;
@@ -186,6 +196,16 @@
     margin-left: 70%;
     margin-top: 18%;
     transition: 0.3s ease;
+  }
+
+  .banner {
+    width: 20rem;
+    height: 3.5rem;
+    font-size: 75%;
+  }
+
+  .square {
+    height: 3.5rem;
   }
 
   .end-section {
